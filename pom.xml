@@ -10,7 +10,9 @@
     </parent>
 
     <groupId>org.asaheyt</groupId>
-    <artifactId>core</artifactId>
+    <artifactId>core-module</artifactId>
+    <name>Core Module Application</name>
+    <description>Core Module for other modules</description>
 
     <dependencies>
         <dependency>

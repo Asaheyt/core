@@ -1,14 +1,14 @@
-package org.asaheyt.core;
+package org.asaheyt.core.module;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * Core application.
+ * Core module application.
  */
 @SpringBootApplication
-public class CoreApplication {
+public class CoreModuleApplication {
   public static void main(String[] args) {
-    SpringApplication.run(CoreApplication.class, args);
+    SpringApplication.run(CoreModuleApplication.class, args);
   }
 }
