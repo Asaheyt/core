@@ -11,10 +11,18 @@
 
     <groupId>org.asaheyt</groupId>
     <artifactId>core</artifactId>
-    <name>Core Application</name>
-    <description>Core Application for all modules</description>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -22,5 +30,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
 </project>
